@@ -14,6 +14,7 @@ import Store from "./pages/Store.tsx";
 import Contact from "./pages/Contact.tsx";
 import Wishlist from "./pages/Wishlist.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import ScrollToTop from "./components/ScrollToTop.tsx";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Index />} />
