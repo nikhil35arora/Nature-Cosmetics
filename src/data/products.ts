@@ -1,3 +1,16 @@
+import botanicalSerum from '@/assets/products/botanical-serum.jpg';
+import hydratingCream from '@/assets/products/hydrating-cream.jpg';
+import clayCleanser from '@/assets/products/clay-cleanser.jpg';
+import lipTint from '@/assets/products/lip-tint.jpg';
+import bronzerPalette from '@/assets/products/bronzer-palette.jpg';
+import bambooMascara from '@/assets/products/bamboo-mascara.jpg';
+import linenDress from '@/assets/products/linen-dress.jpg';
+import cottonTee from '@/assets/products/cotton-tee.jpg';
+import cashmereCardigan from '@/assets/products/cashmere-cardigan.jpg';
+import leafNecklace from '@/assets/products/leaf-necklace.jpg';
+import pearlEarrings from '@/assets/products/pearl-earrings.jpg';
+import stackingRings from '@/assets/products/stacking-rings.jpg';
+
 export type Product = {
   id: string;
   name: string;
@@ -25,7 +38,7 @@ export const products: Product[] = [
     reviewCount: 124,
     description: 'A luxurious blend of rosehip, jojoba, and vitamin E oils that deeply nourishes and revitalizes your skin. This lightweight serum absorbs quickly, leaving your face with a natural, healthy glow.',
     shortDescription: 'Nourishing rosehip & jojoba oil blend',
-    image: '/placeholder.svg',
+    image: botanicalSerum,
     skinType: ['dry', 'normal', 'combination'],
     ingredients: ['Rosehip Oil', 'Jojoba Oil', 'Vitamin E', 'Lavender Extract'],
     usage: 'Apply 3-4 drops to clean face morning and evening. Gently press into skin.',
@@ -41,7 +54,7 @@ export const products: Product[] = [
     reviewCount: 89,
     description: 'Rich, creamy moisturizer infused with shea butter and aloe vera. Perfect for all-day hydration that keeps your skin soft and supple without feeling heavy.',
     shortDescription: 'Shea butter & aloe vera hydration',
-    image: '/placeholder.svg',
+    image: hydratingCream,
     skinType: ['dry', 'sensitive'],
     ingredients: ['Shea Butter', 'Aloe Vera', 'Hyaluronic Acid', 'Green Tea Extract'],
     usage: 'Apply generously after serum. Use morning and night.',
@@ -57,7 +70,7 @@ export const products: Product[] = [
     reviewCount: 67,
     description: 'Purifying kaolin clay cleanser that gently removes impurities while maintaining your skin\'s natural moisture barrier. Ideal for daily use.',
     shortDescription: 'Purifying kaolin clay formula',
-    image: '/placeholder.svg',
+    image: clayCleanser,
     skinType: ['oily', 'combination'],
     ingredients: ['Kaolin Clay', 'Chamomile', 'Tea Tree Oil', 'Coconut Oil'],
     usage: 'Massage onto damp skin, rinse with warm water.',
@@ -72,7 +85,7 @@ export const products: Product[] = [
     reviewCount: 156,
     description: 'A natural, buildable lip tint made with real rose petal extract. Gives a beautiful flush of color while keeping lips moisturized all day.',
     shortDescription: 'Natural rose petal color',
-    image: '/placeholder.svg',
+    image: lipTint,
     isBestseller: true,
     mood: ['glow', 'minimal'],
   },
@@ -85,7 +98,7 @@ export const products: Product[] = [
     reviewCount: 78,
     description: 'Four warm-toned mineral bronzer shades for a sun-kissed glow. Finely milled for a seamless, natural finish.',
     shortDescription: 'Four warm mineral shades',
-    image: '/placeholder.svg',
+    image: bronzerPalette,
     mood: ['glow'],
   },
   {
@@ -97,7 +110,7 @@ export const products: Product[] = [
     reviewCount: 92,
     description: 'Volumizing mascara with bamboo fiber for dramatic, clump-free lashes. Gentle formula suitable for sensitive eyes.',
     shortDescription: 'Volumizing bamboo fiber formula',
-    image: '/placeholder.svg',
+    image: bambooMascara,
     mood: ['glow'],
   },
   {
@@ -109,7 +122,7 @@ export const products: Product[] = [
     reviewCount: 45,
     description: 'Effortlessly elegant wrap dress in breathable linen. Perfect for warm days, with an adjustable tie waist for a flattering silhouette.',
     shortDescription: 'Breathable linen, adjustable fit',
-    image: '/placeholder.svg',
+    image: linenDress,
     isBestseller: true,
     mood: ['minimal'],
   },
@@ -122,7 +135,7 @@ export const products: Product[] = [
     reviewCount: 112,
     description: 'Ultra-soft organic cotton tee in a relaxed fit. Sustainably made, incredibly comfortable, and endlessly versatile.',
     shortDescription: 'Soft organic cotton, relaxed fit',
-    image: '/placeholder.svg',
+    image: cottonTee,
     mood: ['minimal', 'self-care'],
   },
   {
@@ -134,7 +147,7 @@ export const products: Product[] = [
     reviewCount: 34,
     description: 'Luxuriously soft cashmere blend cardigan with delicate button details. An elevated essential for layering.',
     shortDescription: 'Luxe cashmere blend layers',
-    image: '/placeholder.svg',
+    image: cashmereCardigan,
     mood: ['self-care'],
   },
   {
@@ -146,7 +159,7 @@ export const products: Product[] = [
     reviewCount: 87,
     description: 'Delicate 18k gold-plated necklace featuring a hand-crafted leaf pendant. Adjustable chain length for versatile styling.',
     shortDescription: '18k gold-plated leaf pendant',
-    image: '/placeholder.svg',
+    image: leafNecklace,
     isBestseller: true,
     mood: ['glow', 'minimal'],
   },
@@ -159,7 +172,7 @@ export const products: Product[] = [
     reviewCount: 56,
     description: 'Freshwater pearl drop earrings with sterling silver hooks. Timeless elegance for everyday wear or special occasions.',
     shortDescription: 'Freshwater pearl, sterling silver',
-    image: '/placeholder.svg',
+    image: pearlEarrings,
     mood: ['glow'],
   },
   {
@@ -171,7 +184,7 @@ export const products: Product[] = [
     reviewCount: 98,
     description: 'Set of three delicate stacking rings in mixed metals — gold, silver, and rose gold. Mix and match for your signature look.',
     shortDescription: 'Three mixed-metal bands',
-    image: '/placeholder.svg',
+    image: stackingRings,
     mood: ['minimal'],
   },
 ];

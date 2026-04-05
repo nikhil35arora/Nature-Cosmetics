@@ -18,9 +18,14 @@ const ProductCard = ({ product }: { product: Product }) => {
     >
       <Link to={`/products/${product.id}`} className="block">
         <div className="relative aspect-square bg-secondary rounded-lg overflow-hidden mb-3">
-          <div className="absolute inset-0 flex items-center justify-center text-muted-foreground/30 font-heading text-lg">
-            {product.category}
-          </div>
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+            width={800}
+            height={800}
+          />
           <button
             onClick={(e) => {
               e.preventDefault();

@@ -38,9 +38,15 @@ const ProductDetail = () => {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="aspect-square bg-secondary rounded-2xl flex items-center justify-center text-muted-foreground/30 font-heading text-2xl"
+            className="aspect-square bg-secondary rounded-2xl overflow-hidden"
           >
-            {product.category}
+            <img
+              src={product.image}
+              alt={product.name}
+              className="w-full h-full object-cover"
+              width={800}
+              height={800}
+            />
           </motion.div>
 
           {/* Details */}
