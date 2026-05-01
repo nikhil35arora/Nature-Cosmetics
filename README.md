@@ -1,31 +1,53 @@
+# Nature Cosmetics 🌿
 
-# 🌿 Nature Cosmetics – Modern E-Commerce UI
-<div align="center">
-*A clean, responsive, and performance-optimized storefront interface.*
-**View Live Demo** • **Report Bug**
-</div>
-## 📖 About the Project
-**Nature Cosmetics** is a sleek, modern front-end e-commerce application designed to provide a premium user experience for natural beauty products. Built with a focus on speed, accessibility, and visual appeal, this project demonstrates my proficiency in React, TypeScript, and modern styling architectures.
-### ✨ Key Features
- * **Performance-First:** Optimized with Vite for lightning-fast build times.
- * **Responsive Architecture:** Seamless experience across mobile, tablet, and desktop devices.
- * **Type-Safe Development:** Leveraging TypeScript for scalable and maintainable code.
- * **Modern Styling:** Custom-built components using Tailwind CSS for a sophisticated brand identity.
- * **Quality Assurance:** End-to-end testing implementation with Playwright.
+A modern, responsive e-commerce storefront designed to showcase natural beauty products with a seamless user experience.
+
+[**View Live Demo**](https://nature-cosmetics.vercel.app)
+
+---
+
+## 🚀 Project Overview
+
+Nature Cosmetics is a performance-focused web application built to deliver an aesthetic and fluid shopping experience. This project demonstrates proficiency in modern frontend development, state management, and responsive design principles.
+
+---
+
+## ✨ Key Features
+
+* **Fully Responsive:** Optimized for all devices (Mobile, Tablet, Desktop).
+* **Modern UI/UX:** Clean design using Tailwind CSS for a professional look and feel.
+* **Fast Loading:** Optimized with Vite for rapid development and production builds.
+* **Type-Safe:** Built with TypeScript to ensure maintainable and scalable code.
+* **Robust Testing:** Integrated with Playwright and Vitest for reliable performance.
+
+---
+
 ## 🛠 Tech Stack
-| Category | Technology |
-|---|---|
-| **Frontend** | React, TypeScript, Vite |
-| **Styling** | Tailwind CSS |
-| **Testing** | Vitest, Playwright |
-| **Deployment** | Vercel |
-## 🚀 Getting Started
+
+| Technology | Description |
+| :--- | :--- |
+| **React** | Core Frontend Library |
+| **TypeScript** | Static Typing & Scalability |
+| **Tailwind CSS** | Styling & UI Design |
+| **Vite** | Build Tool & Dev Server |
+| **Playwright** | End-to-End Testing |
+| **Vercel** | Deployment Platform |
+
+---
+
+## 📦 Getting Started
+
+Follow these instructions to run the project locally on your machine.
+
 ### Prerequisites
-Ensure you have Node.js installed on your machine.
+Make sure you have [Node.js](https://nodejs.org/) installed.
+
 ### Installation
- 1. Clone the repository:
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/nikhil35arora/Nature-Cosmetics.git
+   git clone [https://github.com/nikhil35arora/Nature-Cosmetics.git](https://github.com/nikhil35arora/Nature-Cosmetics.git)
+
    
    ```
  2. Enter the directory:
