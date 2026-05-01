@@ -43,24 +43,23 @@ Follow these instructions to run the project locally on your machine.
 Make sure you have [Node.js](https://nodejs.org/) installed.
 
 ### Installation
-
-1. **Clone the repository:**
+1.**Clone the repository:**
    ```bash
    git clone [https://github.com/nikhil35arora/Nature-Cosmetics.git](https://github.com/nikhil35arora/Nature-Cosmetics.git)
 
    
    ```
- 2. Enter the directory:
+ 2.**Enter the directory:**
    ```bash
    cd Nature-Cosmetics
    
    ```
- 3. Install dependencies:
+ 3.**Install dependencies:**
    ```bash
    npm install
    
    ```
- 4. Run the development server:
+ 4.**Run the development server:**
    ```bash
    npm run dev
    
