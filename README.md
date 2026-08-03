@@ -71,7 +71,7 @@ During the development of this project, I focused on:
  * Integrating **automated testing** to prevent regressions in the UI.
 ## 📬 Connect with Me
 I am passionate about building beautiful web experiences. Let's connect!
- * **LinkedIn:** https://www.linkedin.com/in/nikhil-arora-347358388
+ * **LinkedIn:** www.linkedin.com/in/nikhil-arora23
 
 <div align="center">
 <sub>Built with passion by <strong>Nikhil Arora</strong></sub>
